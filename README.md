@@ -1,6 +1,6 @@
 # node.js test
-
-## 라우터로 페이지 구성하기
+## server.js
+### 라우터로 페이지 구성하기
 ```js
 
 /*server.js*/
@@ -28,7 +28,7 @@ app.get('/', function(req, res) {    //localhost:3000
 ![](https://velog.velcdn.com/images/jiminnote/post/f64c28db-d402-4bd9-901e-cc7fbdf40976/image.png)
 
 
-## html 파일 만들어서 페이지 구성하기
+### html 파일 만들어서 페이지 구성하기
 ```js
 const  express = require('express');
 const app = express();
@@ -55,6 +55,10 @@ app.get('/about', function(req, res) {    //localhost:3000/about
 
 * `localhost:3000/about`
 ![스크린샷 2022-07-12 오전 1 53 07](https://user-images.githubusercontent.com/95075455/178316998-926b48bc-8a26-4367-91b1-95c5974c0bfc.png)
+
+## test.py
+
+![스크린샷 2022-07-12 오전 12 29 34](https://user-images.githubusercontent.com/95075455/178318463-2f5788fe-28a0-4805-bc1f-071c0ba8971a.png)
 
 
 ### reference
